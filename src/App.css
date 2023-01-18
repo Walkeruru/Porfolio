@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+.seccion{
+  height: 100vh;
+}
+.navbarColor{
+  background-color:#372963 ;
+}
+li>a{
+  color: #b08bff!important;
+  font-weight: 700!important;
+}
+*{
+  font-family: 'Roboto Mono', monospace;
+}
+.apellido{
+  color: #00ff9d;
+}
+@media only screen and (max-width : 500px) {
+  .fotoPerfil{
+    width: 300px;
+  }
+  .typeWriter{
+    width: 320px;
+  }
+}
+.active{
+  color: #00ff9d!important;
+}
+.botonCV{
+  box-shadow: 5px 5px #ee6eff;
+  font-weight: 600;
+}
+.botonCV:active {
+  background-color: #ee6eff;;
+  box-shadow: 5px 5px #00ff9d;
+  transform: translateY(5px);
+}
+.principal{
+  color: #ee6eff;
+}
+.card{
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  background-color: #372963;
+}
+.card-text, p{
+  color: #75c2ff;
+}
+.card-title{
+  color: #ee6eff;
+}
+.link-group {
+  color: #ff5680;
+  font-size: 2rem;
+}
+ul{
+  list-style: none;
+}
+@media (max-width: 900px){
+  .links>p>svg{
+    width: 30px;
+    height: 30px;
+  }
+}
+.footer{
+  background-color: #372963 ;
+}
+
+li>a:hover{
+  color: #00ff9d!important;
+}
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #ff5580;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icon:hover{
+  color: #535bf2;
+} 
