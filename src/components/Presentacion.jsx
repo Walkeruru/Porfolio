@@ -4,11 +4,11 @@ import BtnContacto from "./BtnContacto";
 const Presentacion = () => (
     <div className='seccion' id='inicio' >
         <div className='container text-center'>
-          <img className='fotoPerfil rounded mt-4' src="src/assets/img/perfil.png" alt="" />
+          <img className='fotoPerfil rounded mt-4' src="assets/img/perfil.png" alt="" />
           <h1 className='mt-4'>SANTIAGO <span className='apellido'>OLIVERA</span></h1>
           <img className='typeWriter' src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=25&duration=4000&pause=50&color=FFD800&center=true&vCenter=true&width=435&lines=Web+Developer" alt="Typing SVG" />
           <p>Si quieres ponerte en contacto conmigo escribeme a <a href='mailto:Santiagoolivera.soly1@gmail.com'>Santiagoolivera.soly1@gmail.com</a></p>
-          <a href="src/assets/Santiago Olivera.pdf" download={"Santiago Olivera.pdf"}><button className='botonCV'>Descarga mi CV</button></a>
+          <a href="assets/Santiago Olivera.pdf" download={"Santiago Olivera.pdf"}><button className='botonCV'>Descarga mi CV</button></a>
           <div className='social-icons mt-5'>
             <BtnContacto
               src={<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
