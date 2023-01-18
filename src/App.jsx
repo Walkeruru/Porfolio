@@ -22,7 +22,7 @@ function App() {
         ></Titulo>
         <div className="container">
           <p className='fs-5'>Soy un desarrollador web orientado a la búsqueda de soluciones, proactivo, siempre en la búsqueda de aprender nuevas tecnologías y aventurero. Me gusta el desarrollo por la satisfacción que me produce superar los retos y me motiva la oportunidad que ofrece el software de influir positivamente en la vida de una persona y en el mundo en general.</p>
-          <p className='fs-5'>No dudes en ponerte en contacto conmigo directamente en <a href="mailto:santiagoolivera.soly1@gmail.com">Santiagoolivera.soly1@gmail.com</a>.</p>
+          <p className='fs-6'>No dudes en ponerte en contacto directamente en <a href="mailto:santiagoolivera.soly1@gmail.com">Santiagoolivera.soly1@gmail.com</a>.</p>
         </div>
       </div>
       <hr className='m-5' />
